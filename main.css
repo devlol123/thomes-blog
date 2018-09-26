@@ -1,0 +1,570 @@
+html,body{
+      margin: 0;
+      height: 100%;
+      scroll-behavior: smooth;
+      overflow: hidden;
+}
+
+a{
+      text-decoration: none;
+      color:inherit;
+      transition: 0.7s;
+      transition-duration: 1s;
+}
+
+li{
+      list-style: none;
+      display: inline;
+      margin-left: 3%;
+      margin-right: 5%;
+}
+li:hover a{
+            opacity: 0.6;
+}
+
+ul{
+      margin-top: 4%;
+      text-align: center;
+      font-family: welcom2g;
+      font-size: 120%;
+      /* transition: 0.1s; */
+      /* background-color: black; */
+}
+
+form{
+      margin-left: 14%;
+      margin-top: 0;
+}
+
+input[type=submit]{
+      margin-top: 1cm;
+}
+
+
+input{
+      background-color: white;
+      text-decoration-color: black;
+      color: black;
+      font-family: welcom2g;
+      padding-right: 5%;
+      padding-left: 2%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      /* display: block; */
+      border-radius: 2cm;
+      border-width: 1px;
+      /* border-top-style:none; */
+      border-color: transparent;
+      background-color: rgba(180, 180, 180, 0.23 );
+      transition: 1s ease-in-out;
+       text-align: left;
+}
+
+input:focus {
+      border-radius: 2cm;
+      border-style:none;
+      border-width: 0;
+      padding-right: 7%;
+      border-radius: 0.125cm;
+
+}
+
+textarea{
+      display: block;
+      color: black;
+      font-family: welcom2g;
+      text-decoration-color: black;
+      background-color: white;
+      padding-left: 2%;
+      padding-right: 18%;
+      padding-bottom: 8%;
+      padding-top: 1%;
+      border-color: grey;
+      border-radius: 1%;
+      text-align: left;
+      transition: 1s;
+      border-color: transparent;
+      background-color: rgba(180, 180, 180, 0.23 );
+}
+
+label{
+      font-family: welcom2g;
+      font-size:70%;
+      opacity: 0.75;
+
+}
+textarea:focus{
+      border-style: none;
+      padding-right: 25%;
+      border-radius: 1%;
+      transition: 4s;
+}
+
+td{
+      width:350px;
+      height: 320px;
+      margin-right: 8px;
+}
+
+table{
+      margin-left: 7.6%;
+      margin-right: 5%;
+      /* background-color: red; */
+}
+
+#navbar{
+      width: 100%;
+      z-index:2000;
+}
+
+#logo{
+      display: inline;
+      padding-bottom:56px;
+      padding-top: 56px;
+      padding-right: 7.5px;
+      padding-left: 7.5px;
+      background-color: black;
+      border-top-right-radius:60% ;
+      border-top-left-radius: 6%;
+      border-bottom-left-radius: 60%;
+      border-bottom-right-radius:6% ;
+      z-index: 1000;
+
+}
+
+.colortoul{
+      text-decoration-color: white;
+      color: white;
+      background-color: rgba(0,0,0,0.935);
+      /* border-color: white; */
+}
+
+
+.sticktotop{
+      position: fixed;
+      top:0;
+      transition: 1s;
+
+}
+
+#logoinspan{
+      background-repeat: no-repeat;
+      text-decoration-color: white;
+      color: white;
+      font-family: handwritting;
+      font-size: 150%;
+      border: solid 10px white;
+      float: none;
+      padding-left: 37px;
+      padding-right: 40px;
+      padding-top: 38px;
+      padding-bottom:38px;
+      border-top-right-radius:60% ;
+      border-top-left-radius: 6%;
+      border-bottom-left-radius: 60%;
+      border-bottom-right-radius:6% ;
+      /* border-radius: 40%; */
+      border-style: double;
+      z-index: 1000;
+
+}
+
+
+#welcomediv{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      margin: 0;
+      display: block;
+}
+
+#mainimg{
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      /* z-index: 1; */
+
+}
+
+.tp{
+      font-family: welcomefont;
+      font-size: 9vh;
+      position: absolute;
+      margin-left: 87vh;
+      color: #000000E3;
+      /* z-index: -1; */
+}
+
+.dis{
+      font-family: welcomedis;
+      position: absolute;
+      font-size: 5vh;
+      margin-top: 38vh;
+      margin-left: 152vh;
+
+}
+
+#smicondiv{
+      position: absolute;
+      margin-left: 15%;
+      margin-top: 42%;
+
+}
+#smicondiv2{
+      display: inline;
+}
+
+#icon1,#icon2,#icon3,#icon4{
+      padding-left:9%;
+      display: inline;
+      opacity: 0.4;
+      transition: 0.7s;
+}
+
+.icons{
+      width: 4.7vh;
+      height: 4.7vh;
+      display: inline;
+}
+
+
+#i1,#i2,#i3,#i4{
+      transition: 0.3s;
+      opacity: 0.6;
+}
+
+
+#smicondiv2:hover #icon1{
+              opacity: 1;
+              display: inline;
+}
+#smicondiv2:hover #icon2{
+              opacity: 1;
+              display: inline;
+}
+#smicondiv2:hover #icon3{
+              opacity: 1;
+              display: inline;
+}
+#smicondiv2:hover #icon4{
+              opacity: 1;
+              display: inline;
+}
+
+
+#icon1:hover #i1{
+             width: 5vh;
+             height: 5vh;
+}
+#icon2:hover #i2{
+             width: 5vh;
+             height: 5vh;;
+
+}
+#icon3:hover #i3{
+             width: 5vh;
+             height: 5vh;
+}
+#icon4:hover #i4{
+             width: 5vh;
+             height: 5vh;
+}
+
+@-moz-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+            -moz-transform: translateY(0);
+                 transform: translateY(0);
+  }
+  40% {
+            -moz-transform: translateY(-30px);
+                 transform: translateY(-30px);
+  }
+  60% {
+            -moz-transform: translateY(-15px);
+                 transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+  }
+  40% {
+            -webkit-transform: translateY(-30px);
+                    transform: translateY(-30px);
+  }
+  60% {
+            -webkit-transform: translateY(-15px);
+                    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+              -moz-transform: translateY(0);
+              -ms-transform: translateY(0);
+              -webkit-transform: translateY(0);
+                    transform: translateY(0);
+
+  }
+  40% {
+              -moz-transform: translateY(-30px);
+              -ms-transform: translateY(-30px);
+              -webkit-transform: translateY(-30px);
+                      transform: translateY(-30px);
+
+  }
+  60% {
+              -moz-transform: translateY(-15px);
+              -ms-transform: translateY(-15px);
+              -webkit-transform: translateY(-15px);
+                        transform: translateY(-15px);
+
+  }
+}
+
+
+.arrow {
+            position: absolute;
+            bottom: 5%;
+            left: 50%;
+            padding-top: 0;
+            margin-left: -20px;
+            width: 50px;
+            height: 80px;
+            background-image: url("resrcs/img/icon41.png");
+            background-size:contain;
+            background-repeat:no-repeat;
+}
+
+.bounce {
+            -moz-animation: bounce 2s infinite;
+            -webkit-animation: bounce 2s infinite;
+            animation: bounce 2s infinite;
+}
+
+
+/* =========================================welcome ends======================================================= */
+
+
+#tpagain{
+        font-family: capitallettersonly;
+        font-size: 540%;
+        text-align: center;
+        letter-spacing: 0.5em;
+        display:block;
+        /* height: 100%; */
+
+}
+
+.tpp{
+      margin-top: 5%;
+      padding-top: 3%;
+      font-display: block;
+}
+
+#aboutme{
+      display: block;
+      text-align:left;
+      margin-left: 6%;
+      margin-right: 6%;
+      height: 100vh;
+}
+
+.tpall{
+        font-family: welcomefont;
+        font-size: 240%;
+}
+
+.me{
+      width: 30%;
+      height: 70%;
+      display: inline;
+      float: left;
+      border-radius: 1%;
+      margin-left: 6%;
+}
+
+.aboutmedis{
+      width: 49%;
+      height: 68%;
+      display: inline;
+      float: left;
+      font-family: welcom2g;
+      margin-left: 10%;
+      font-size: 150%;
+      overflow: hidden;
+      letter-spacing: 1px;
+}
+
+.handwritting{
+      font-family: handwritting;
+      text-decoration: underline;
+
+}
+/* ==========================================aboutme ends======================================== */
+
+#contact{
+      display: block;
+      height: 100vh;
+      margin-left: 6%;
+      margin-right: 6%;
+}
+
+.inputs{
+      margin-top: 1px;
+}
+
+.butt{
+      position: absolute;
+      border-radius: 5px;
+      border-color: DodgerBlue;
+      font-size: 70%;
+      transition: 1s;
+      border-width: 2px;
+      padding: 3px;
+}
+.butt:active{
+      border-color: DodgerBlue;
+      border-radius: 1cm;
+}
+/* =============================================contact me ends =============================================== */
+
+#photography{
+      margin-left: 6vh;
+      z-index: 900;
+}
+
+.photooutdiv{
+      width:37vh;
+      height: 34vh;
+      overflow: hidden;
+}
+
+.photo{
+      width:42vh;
+      height: 34vh;
+      transition: 1s;
+      z-index: 500;
+}
+
+.phototool1{
+      position: absolute;
+      width: 4vh;
+      height: 4vh;
+      margin-top: -7.8vh;
+      margin-left: 4.8vh;
+      opacity: 0;
+      transition: 0.6s;
+      transition-delay: 0.2s;     
+}
+.phototool2{
+      position: absolute;
+      width: 4vh;
+      height: 4vh;
+      margin-top: -7.8vh;
+      margin-left:28.2vh;
+      opacity: 0;
+      transition: 0.6s;
+      transition-delay: 0.6s;
+}
+.phototool3{
+      position: absolute;
+      width: 4vh;
+      height: 4vh;
+      margin-top: -7.8vh;
+      margin-left: 15.3vh;
+      opacity: 0;
+      transition: 0.6s;
+      transition-delay: 0.4s;
+}
+
+td:hover .photo{
+      opacity: 0.5;
+      width: 45vh;
+      height: 37vh;
+      z-index: 1100;
+}
+td:hover .phototool1{
+      opacity: 0.8;
+}
+td:hover .phototool2{
+      opacity: 0.8;
+}
+td:hover .phototool3{
+      opacity: 0.8;
+}
+/* =============================================photography ends=================================================== */
+
+.footer{
+      background-color: rgba(0, 0, 0, 1);
+      bottom: 0;
+/*      margin-bottom: -1vh;*/
+      padding-bottom: 0;
+      width: 100%;
+
+}
+
+.schlogo{
+        margin-top: 1vh;
+        width: 10vh;
+        height: 12vh;
+        margin-left: 90vh; 
+}
+
+.schlogoimg{
+
+        width: 19vh;
+        height: 13vh;
+
+}
+
+.footerdis{
+        color: rgba(255, 225, 225, 0.7);
+         font-family: welcom2g;
+         text-align: center;
+}
+
+.name{
+      font-size: 130%;
+      letter-spacing: 4px;
+}
+
+.copy{
+      font-size: 135%;
+      /* margin-bottom: 20px; */
+}
+
+/* =================================================fonts===============================================*/
+
+@font-face {
+    font-family: welcomefont;
+    src: url(resrcs/font/Soybeanut.ttf);
+}
+@font-face {
+   font-family: welcomedis;
+   src: url(resrcs/font/Fountain.ttf);
+}
+@font-face {
+   font-family: welcom2g;
+   src: url(resrcs/font/ProductSansRegular.ttf);
+}
+@font-face {
+   font-family: capitallettersonly;
+   src: url(resrcs/font/DublineRegular.ttf);
+}
+@font-face {
+    font-family: handwritting;
+    src: url(resrcs/font/Ariandi.otf);
+}
